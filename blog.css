@@ -1,0 +1,73 @@
+body {
+    background-color: beige;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h4, h5 {
+    margin: 0px;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: navy;
+    text-align: center;
+    
+}
+
+.header, .card {
+    background-color:azure;
+    
+    
+}
+
+.header, .footer {
+    position: sticky;
+    top: 0px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(20, 208, 233);
+    text-align: center;
+    height: 8vh;
+    font-size: larger;
+    margin-top: -25px;
+   
+   
+
+}
+.container {
+    display: flex;
+    
+}
+
+.leftcontent {
+    padding: 5px;
+    width: calc(70% - 10px);
+    float: left;
+    
+}
+
+.rightcontent {
+    padding: 5px;
+    width: calc(30% - 10px);
+    float: right;
+    
+}
+
+.card {
+    margin: 5px 0px;
+    padding: 10px;
+    
+}
+
+img {
+    width: 100%;
+    
+}
+
+.right-sticky {
+    position: sticky;
+    top: 40px;
+   
+}
